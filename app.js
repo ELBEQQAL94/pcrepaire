@@ -38,4 +38,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.listen(500, () => console.log('Server running at 500 port...'));
+
 module.exports = app;
